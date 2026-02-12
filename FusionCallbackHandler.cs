@@ -7,13 +7,14 @@ using System.Linq;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static Unity.Collections.Unicode;
 
 public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
 {
     [SerializeField] private NetworkObject playerPrefab;
-    [SerializeField] private bool spawnBotsInGame = false;
+    [SerializeField] public bool spawnBotsInGame = false;
 
-    private readonly List<PlayerRef> pendingPlayers = new List<PlayerRef>();
+    //private readonly List<PlayerRef> pendingPlayers = new List<PlayerRef>();
     private CinemachineCamera cineCam;
     private Crosshair crosshair;
 
@@ -39,35 +40,34 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnSceneLoadDone(NetworkRunner runner)
     {
-        int loadedIndex = SceneManager.GetActiveScene().buildIndex;
+        int loadedIndex = lastSceneIndex;
 
         Debug.Log($"[FusionCallbackHandler] Scene load done. Index={loadedIndex}");
        
         if (loadedIndex >= 3)
         {
             //Find gameplay camera and crossshair 
-            cineCam = FindObjectOfType<CinemachineCamera>(true);
-            crosshair = FindObjectOfType<Crosshair>(true);
+            cineCam = Resources.FindObjectsOfTypeAll<CinemachineCamera>().FirstOrDefault();
+            crosshair = Resources.FindObjectsOfTypeAll<Crosshair>().FirstOrDefault();
             Debug.Log($"[FusionCallbackHandler] Found CineCam= {cineCam?.name}, crosshair={crosshair?.name}");
 
 
             Debug.Log("GreyBox loaded, spawning players…");
-            foreach (var player in pendingPlayers)
+            foreach (var player in runner.ActivePlayers)
             {
                 SpawnPlayerForScene(runner, player);
             }
-            pendingPlayers.Clear();
         }
         else
         {
-            Debug.Log($"Unknown scene index: {lastSceneIndex}");
+            Debug.Log($"[FusionCallbackHandler] Not a gameplay scene (Index={loadedIndex}).");
         }
     }
 
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
         Debug.Log($"[FusionCallbackHandler] OnPlayerJoined fired for {player}");
-        pendingPlayers.Add(player);
+        //pendingPlayers.Add(player);
         StartCoroutine(WaitForLobbyThenInject(player));
         Debug.Log("[FusionCallbackHandler] Player joined – waiting for scene load callback to decide spawn.");
     }
@@ -88,7 +88,7 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
         var info = new PlayerInfo(
             name: PlayerSession.Username,
             id: PlayerSession.PlayFabID.GetHashCode(),
-            teamID: 0,
+            teamID: assignedTeam,
             isBot: false,
             isReady: true,
             playerRef: player,
@@ -150,30 +150,48 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
             Debug.Log($"[FusionCallbackHandler] PlaneSpawner.spawnPoint = {spawnT.position}");
         }
 
+
+        StartCoroutine(BindCameraWhenPlaneSpawns(runner,obj, player));
+
+
+
         // assign plane to CrosshairController and camaera for the local player
         if (player == runner.LocalPlayer)
-        { 
-            if (crosshair != null)
-            {
-                crosshair.Plane = obj.transform;
-                Debug.Log($"[FusionCallbackHandler] Crosshair bound to {obj.transform.name}");
-            }
-            if (cineCam != null)
-            {
-                cineCam.Follow = obj.transform;
-                Debug.Log($"[FusionCallbackHandler] Cinemachine Follow set to {obj.transform.name}");
-            }
-            else
-            {
-                Debug.LogWarning("[FusionCallbackHandler] CrosshairController and Cinemachine camera not found in scene.");
-            }
+        {
+
+            Debug.Log("[FusionCallbackHandler] Local player spawned – camera and crosshair will bind when plane spawns.");
 
 
 
-            
         }
 
     }
+
+    private IEnumerator BindCameraWhenPlaneSpawns(NetworkRunner runner, NetworkObject anchor, PlayerRef player)
+    {
+        PlaneSpawner spawner = anchor.GetComponent<PlaneSpawner>();
+        while (spawner == null || spawner.spawnedPlane == null)
+            yield return null;
+
+        Transform plane = spawner.spawnedPlane.transform;
+
+        if (player == runner.LocalPlayer)
+        {
+            if (cineCam != null)
+            {
+                cineCam.Follow = plane;
+                Debug.Log($"[FusionCallbackHandler] Camera now following plane: {plane.name}");
+            }
+            if (crosshair != null)
+            {
+                crosshair.Plane = plane;
+                Debug.Log($"[FusionCallbackHandler] Crosshair bound to plane: {plane.name}");
+            }
+        }
+    }
+
+
+
 
     // Other INetworkRunnerCallbacks unchanged...
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player) => Debug.Log($"[FusionCallbackHandler] Player left: {player}");

@@ -649,43 +649,14 @@ public class LobbyManager : MonoBehaviour
         }
 
     }
-
-    public void InjectBots(int botCount)
-    {
-        for (int i = 0; i < botCount; i++)
-        {
-            int team = AssignTeamForPlayer();
-
-            var botInfo = new PlayerInfo(
-                name: $"Bot_{i + 1}",
-                id: UnityEngine.Random.Range(100000, 999999),
-                teamID: team,
-                isBot: true,
-                isReady: true,
-                playerRef: default,
-                playFabId: "BOT",
-                sessionTicket: "BOT"
-            );
-
-            AddPlayerCard(botInfo);
-            Debug.Log($"[LobbyManager] Injected bot: {botInfo.PlayerName} on team {team}");
-        }
-    }
-
-
-
-
     private void InjectBotsAndStart()
     {
-        if (botInjectionTriggered || !NetworkBootstrapper.Runner.IsServer) 
-            return;
-
-        int humanCount = lobbyPlayers.Count(p => !p.isBot);
+        int humanCount = humanPlayer.Count;
         int botsToAdd = maxPlayer - humanCount;
 
         if (botsToAdd <= 0)
         {
-            Debug.Log($"[Lobby] Injecting {botsToAdd} bots.");
+            Debug.Log("[BotInjection] No bots needed, enough humans are present.");
             return;
         }
 

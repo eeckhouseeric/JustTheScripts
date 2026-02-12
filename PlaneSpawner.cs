@@ -9,6 +9,7 @@ public class PlaneSpawner : MonoBehaviour
     public NetworkRunner runner;
     public GameObject planePrefab;
     public Transform spawnPoint;
+    public NetworkObject spawnedPlane;
 
     // assigning PF_HealthUI prefab
     public GameObject healthUiPrefab;
@@ -49,7 +50,7 @@ public class PlaneSpawner : MonoBehaviour
         }
 
       // spawns the plane
-        var planeObj=runner.Spawn(
+       spawnedPlane=runner.Spawn(
             planePrefab, 
             spawnPoint.position, 
             spawnPoint.rotation, 
@@ -72,7 +73,7 @@ public class PlaneSpawner : MonoBehaviour
             Debug.Log($"[PlaneSpawner] UI postion = {ui.transform.position}" );
 
 
-            var health = planeObj.GetComponent<PlaneHealth>();
+            var health = spawnedPlane.GetComponent<PlaneHealth>();
             Debug.Log($"[PlaneSpawner] PlaneHealth component found {health}");
 
             if (health != null)

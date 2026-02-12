@@ -141,7 +141,6 @@ private IEnumerator WaitForRunnerThenLoadLobby()
             var greyBoxScene = SceneRef.FromIndex(3); // GreyBox scene index
             FusionCallbackHandler.SetSceneIndex(greyBoxScene.AsIndex);
             NetworkBootstrapper.Runner.LoadScene(greyBoxScene);
-            FusionCallbackHandler.lastSceneIndex = 3; // GreyBox scene index
             Debug.Log("[StartMenuPrototype] Loading GreyBox scene.");
         } 
     
