@@ -1,10 +1,11 @@
+using Fusion;
 using UnityEngine;
 
 public class Crosshair : MonoBehaviour
 {
-    public Transform Plane;
     public float distance = 100f;
 
+    public Transform Plane;
 
     private RectTransform crossHairUI;
     private Camera cam;
@@ -18,6 +19,20 @@ public class Crosshair : MonoBehaviour
 
     void LateUpdate()
     {
+
+        // If we don't have the plane yet, try to find it
+        if (Plane == null) 
+        { foreach (var no in FindObjectsOfType<NetworkObject>()) 
+            { if (no.HasInputAuthority) 
+               
+                {
+                    Plane = no.transform;
+                    break;
+
+                }
+            } 
+        }
+
         if (Plane == null || cam == null)
             return;
 
