@@ -184,7 +184,7 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
             }
             if (crosshair != null)
             {
-                crosshair.SetPlane(plane);
+                crosshair.Plane = plane;
                 Debug.Log($"[FusionCallbackHandler] Crosshair bound to plane: {plane.name}");
             }
         }
