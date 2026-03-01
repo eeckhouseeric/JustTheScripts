@@ -1,0 +1,2479 @@
+[Bootstrapper] Awake called. GameObject set to not destroy on load.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:Awake () (at Assets/Project/Scripts/NetworkBootstrapper.cs:37)
+
+[Bootstrapper] Found 1 NetworkBootstrapper instances.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:LogDiagnostics () (at Assets/Project/Scripts/NetworkBootstrapper.cs:264)
+NetworkBootstrapper:Awake () (at Assets/Project/Scripts/NetworkBootstrapper.cs:62)
+
+[Bootstrapper] Instance: PF_LobbyRunner in scene 'DontDestroyOnLoad'
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:LogDiagnostics () (at Assets/Project/Scripts/NetworkBootstrapper.cs:266)
+NetworkBootstrapper:Awake () (at Assets/Project/Scripts/NetworkBootstrapper.cs:62)
+
+[Bootstrapper] Found 1 NetworkRunner instances.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:LogDiagnostics () (at Assets/Project/Scripts/NetworkBootstrapper.cs:269)
+NetworkBootstrapper:Awake () (at Assets/Project/Scripts/NetworkBootstrapper.cs:62)
+
+[Bootstrapper] Runner: PF_LobbyRunner in scene 'DontDestroyOnLoad'
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:LogDiagnostics () (at Assets/Project/Scripts/NetworkBootstrapper.cs:271)
+NetworkBootstrapper:Awake () (at Assets/Project/Scripts/NetworkBootstrapper.cs:62)
+
+[Bootstrapper] Start called. Runner=PF_LobbyRunner, HasStarted=True
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:72)
+
+[Bootstrapper] Using Global config with PrefabTable count=13
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:ResolveProjectConfig () (at Assets/Project/Scripts/NetworkBootstrapper.cs:252)
+NetworkBootstrapper:ValidateConfig () (at Assets/Project/Scripts/NetworkBootstrapper.cs:282)
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:75)
+
+[Bootstrapper] NetworkProjectConfig and PrefabTable are assigned correctly.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:ValidateConfig () (at Assets/Project/Scripts/NetworkBootstrapper.cs:295)
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:75)
+
+[Bootstrapper] InitializeAsync entered.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:87)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] Runner.IsRunning=False
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:95)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] Using Global config with PrefabTable count=13
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:ResolveProjectConfig () (at Assets/Project/Scripts/NetworkBootstrapper.cs:252)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:113)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] Prefab entry: Fusion.NetworkPrefabSourceStaticLazy (Type=NetworkPrefabSourceStaticLazy)
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:135)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] --- CONFIG VALIDATION ---
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:149)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] Using Global NetworkProjectConfig
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:150)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+Runner.ProvideInput=True
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:151)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+PrefabTable count=13
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:152)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+PrefabTable hash=-1445261048 | names=[Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy, Fusion.NetworkPrefabSourceStaticLazy]
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:153)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] -------------------------
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:154)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[FusionCallbackHandler] Scene index set to 1
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SetSceneIndex (int) (at Assets/Project/Scripts/FusionCallbackHandler.cs:32)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:179)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+[Bootstrapper] StartGameArgs -> Mode=Shared, Session=session_US_20260301004331_0.1.0_BF818A, SceneIndex=[Scenes: [Scene:#1]], PrefabCount=13
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:180)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<NetworkBootstrapper/<InitializeAsync>d__12> (NetworkBootstrapper/<InitializeAsync>d__12&)
+NetworkBootstrapper:InitializeAsync ()
+NetworkBootstrapper:Start () (at Assets/Project/Scripts/NetworkBootstrapper.cs:80)
+
+<color=#73ACE5>[Fusion]</color> adding player [Player:1]
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+Fusion.UnityLogStream:Log (string)
+Fusion.Simulation:PlayerAdd (Fusion.PlayerRef,Fusion.SimulationConnection)
+Fusion.Simulation:Fusion.Sockets.INetPeerGroupCallbacks.OnConnected (Fusion.Sockets.NetConnection*)
+Fusion.Sockets.NetPeerGroup:HandleCommandAccepted (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks,Fusion.Sockets.NetConnection*,Fusion.Sockets.NetCommandAccepted)
+Fusion.Sockets.NetPeerGroup:HandlePacketCommand (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks,Fusion.Sockets.NetConnection*,Fusion.Sockets.NetBitBuffer*)
+Fusion.Sockets.NetPeerGroup:HandlePacket (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks,Fusion.Sockets.NetConnection*,Fusion.Sockets.NetBitBuffer*)
+Fusion.Sockets.NetPeerGroup:Receive (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks)
+Fusion.Sockets.NetPeerGroup:Update (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks)
+Fusion.Simulation:NetworkRecv ()
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[FusionCallbackHandler] Connected to server
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnConnectedToServer (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:201)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnConnectedToServer ()
+Fusion.Simulation:Fusion.Sockets.INetPeerGroupCallbacks.OnConnected (Fusion.Sockets.NetConnection*)
+Fusion.Sockets.NetPeerGroup:HandleCommandAccepted (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks,Fusion.Sockets.NetConnection*,Fusion.Sockets.NetCommandAccepted)
+Fusion.Sockets.NetPeerGroup:HandlePacketCommand (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks,Fusion.Sockets.NetConnection*,Fusion.Sockets.NetBitBuffer*)
+Fusion.Sockets.NetPeerGroup:HandlePacket (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks,Fusion.Sockets.NetConnection*,Fusion.Sockets.NetBitBuffer*)
+Fusion.Sockets.NetPeerGroup:Receive (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks)
+Fusion.Sockets.NetPeerGroup:Update (Fusion.Sockets.NetPeerGroup*,Fusion.Sockets.INetPeerGroupCallbacks)
+Fusion.Simulation:NetworkRecv ()
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[Bootstrapper] StartGame result: Ok=True, Reason=Ok
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:189)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Fusion.StartGameResult>:SetResult (Fusion.StartGameResult)
+Fusion.NetworkRunner/<StartGameModeCloud>d__433:MoveNext ()
+System.Threading.Tasks.TaskCompletionSource`1<Fusion.ShutdownReason>:TrySetResult (Fusion.ShutdownReason)
+Fusion.Async.AsyncOperationHandler`1<Fusion.ShutdownReason>:SetResult (Fusion.ShutdownReason)
+Fusion.NetworkRunner:OnRuntimeConfigReady ()
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[Bootstrapper] ActivePlayers=1 LocalPlayerObject=NULL
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:190)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Fusion.StartGameResult>:SetResult (Fusion.StartGameResult)
+Fusion.NetworkRunner/<StartGameModeCloud>d__433:MoveNext ()
+System.Threading.Tasks.TaskCompletionSource`1<Fusion.ShutdownReason>:TrySetResult (Fusion.ShutdownReason)
+Fusion.Async.AsyncOperationHandler`1<Fusion.ShutdownReason>:SetResult (Fusion.ShutdownReason)
+Fusion.NetworkRunner:OnRuntimeConfigReady ()
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[FusionCallbackHandler] Scene load started. Index=1
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadStart (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:38)
+Fusion.NetworkRunner:InvokeSceneLoadStart (Fusion.SceneRef)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:320)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault:StartTracedCoroutine (System.Collections.IEnumerator) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:692)
+Fusion.NetworkSceneManagerDefault:LoadScene (Fusion.SceneRef,Fusion.NetworkLoadSceneParameters) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:260)
+Fusion.NetworkRunner:SceneInfoSyncSceneManager (Fusion.NetworkSceneInfoChangeSource,Fusion.NetworkSceneInfo&,Fusion.NetworkSceneInfo&)
+Fusion.NetworkRunner:SceneInfoUpdate ()
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnBeforeTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+
+[FusionCallbackHandler] Scene load done. Index=1
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:45)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Not a gameplay scene (Index=1).
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:63)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] OnPlayerJoined fired for [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnPlayerJoined (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:69)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.PlayerJoined (Fusion.PlayerRef)
+Fusion.Simulation:InvokePlayerJoinedLeft ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[FusionCallbackHandler] Player joined – waiting for scene load callback to decide spawn.
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnPlayerJoined (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:72)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.PlayerJoined (Fusion.PlayerRef)
+Fusion.Simulation:InvokePlayerJoinedLeft ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[FusionCallbackHandler] Scene load started. Index=1
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadStart (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:38)
+Fusion.NetworkRunner:InvokeSceneLoadStart (Fusion.SceneRef)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:320)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault:<StartTracedCoroutine>b__47_0 (Fusion.IAsyncOperation) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:686)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:689)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DEBUG Bootstrapper] Runner PrefabTable -> Count= 13Hash= -1445261048
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:219)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+Fusion.NetworkSceneAsyncOp/Awaiter/<>c__DisplayClass5_0:<OnCompleted>b__1 (object)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+[Bootstrapper] Fusion running | Mode=Shared | Session='session_US_20260301004331_0.1.0_BF818A' | Players=1 | ProvideInput=True |PrefabTable=SET |  Scene=PersistentRunner
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:222)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+Fusion.NetworkSceneAsyncOp/Awaiter/<>c__DisplayClass5_0:<OnCompleted>b__1 (object)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+[Bootstrapper] Fusion started successfully.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:229)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+Fusion.NetworkSceneAsyncOp/Awaiter/<>c__DisplayClass5_0:<OnCompleted>b__1 (object)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+[Bootstrapper] PostStartupFlow triggered.
+UnityEngine.Debug:Log (object)
+NetworkBootstrapper:PostStartupFlow () (at Assets/Project/Scripts/NetworkBootstrapper.cs:277)
+NetworkBootstrapper/<InitializeAsync>d__12:MoveNext () (at Assets/Project/Scripts/NetworkBootstrapper.cs:231)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+Fusion.NetworkSceneAsyncOp/Awaiter/<>c__DisplayClass5_0:<OnCompleted>b__1 (object)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+Currently selected: startButton
+UnityEngine.Debug:Log (object)
+StartMenuPrototype:OnConfirmPressed (UnityEngine.InputSystem.InputAction/CallbackContext) (at Assets/Project/Scripts/StartMenuPrototype.cs:64)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+Confirm pressed on: startButton
+UnityEngine.Debug:Log (object)
+StartMenuPrototype:OnConfirmPressed (UnityEngine.InputSystem.InputAction/CallbackContext) (at Assets/Project/Scripts/StartMenuPrototype.cs:70)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+Start button clicked – showing login UI
+UnityEngine.Debug:Log (object)
+StartMenuPrototype:OnStartButtonClicked () (at Assets/Project/Scripts/StartMenuPrototype.cs:92)
+UnityEngine.Events.UnityEvent:Invoke ()
+StartMenuPrototype:OnConfirmPressed (UnityEngine.InputSystem.InputAction/CallbackContext) (at Assets/Project/Scripts/StartMenuPrototype.cs:71)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+This will cause a leak and performance issues, PlaneControls.UI.Disable() has not been called.
+UnityEngine.Debug:Assert (bool,string)
+PlaneControls:Finalize () (at Assets/Project/Scripts/PlaneControls.cs:723)
+
+PlayFab Error: /Client/LoginWithEmailAddress: Invalid email address or password
+UnityEngine.Debug:LogError (object)
+PlayFabAuth:OnError (PlayFab.PlayFabError) (at Assets/Project/Scripts/PlayFabAuth.cs:248)
+PlayFab.Internal.PlayFabUnityHttp:OnResponse (string,PlayFab.Internal.CallRequestContainer) (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:257)
+PlayFab.Internal.PlayFabUnityHttp/<Post>d__12:MoveNext () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:195)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Login successful! Session ticket: 7A57D0C4E5089E04-3E1CECC1BA07A4C1-E226396BA71A4BA2-B7691-8DE772BA4FA671B-fb0aTRNwT3JZcX6k0Fofjuy8QlIkxrXg41wNaAXfqig=
+UnityEngine.Debug:Log (object)
+PlayFabAuth:OnLoginSuccess (PlayFab.ClientModels.LoginResult) (at Assets/Project/Scripts/PlayFabAuth.cs:173)
+PlayFab.Internal.PlayFabHttp/<>c__DisplayClass23_0`1<PlayFab.ClientModels.LoginResult>:<_MakeApiCall>b__1 () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs:219)
+PlayFab.Internal.PlayFabUnityHttp:OnResponse (string,PlayFab.Internal.CallRequestContainer) (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:244)
+PlayFab.Internal.PlayFabUnityHttp/<Post>d__12:MoveNext () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:195)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[StartMenuPrototype] Button flipped to Start, user is logged in.
+UnityEngine.Debug:Log (object)
+StartMenuPrototype:SetButtonToStart () (at Assets/Project/Scripts/StartMenuPrototype.cs:163)
+PlayFabAuth:OnLoginSuccess (PlayFab.ClientModels.LoginResult) (at Assets/Project/Scripts/PlayFabAuth.cs:185)
+PlayFab.Internal.PlayFabHttp/<>c__DisplayClass23_0`1<PlayFab.ClientModels.LoginResult>:<_MakeApiCall>b__1 () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs:219)
+PlayFab.Internal.PlayFabUnityHttp:OnResponse (string,PlayFab.Internal.CallRequestContainer) (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:244)
+PlayFab.Internal.PlayFabUnityHttp/<Post>d__12:MoveNext () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:195)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[StartMenuPrototype] Button flipped to Play, user is logged in.
+UnityEngine.Debug:Log (object)
+StartMenuPrototype:SetButtonToPlay () (at Assets/Project/Scripts/StartMenuPrototype.cs:182)
+PlayFabAuth:OnLoginSuccess (PlayFab.ClientModels.LoginResult) (at Assets/Project/Scripts/PlayFabAuth.cs:192)
+PlayFab.Internal.PlayFabHttp/<>c__DisplayClass23_0`1<PlayFab.ClientModels.LoginResult>:<_MakeApiCall>b__1 () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs:219)
+PlayFab.Internal.PlayFabUnityHttp:OnResponse (string,PlayFab.Internal.CallRequestContainer) (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:244)
+PlayFab.Internal.PlayFabUnityHttp/<Post>d__12:MoveNext () (at Assets/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs:195)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Scene load started. Index=1
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadStart (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:38)
+Fusion.NetworkRunner:InvokeSceneLoadStart (Fusion.SceneRef)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:320)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault:StartTracedCoroutine (System.Collections.IEnumerator) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:692)
+Fusion.NetworkSceneManagerDefault:LoadScene (Fusion.SceneRef,Fusion.NetworkLoadSceneParameters) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:260)
+Fusion.NetworkRunner:LoadScene (Fusion.SceneRef,UnityEngine.SceneManagement.LoadSceneParameters,bool)
+Fusion.NetworkRunner:LoadScene (Fusion.SceneRef,UnityEngine.SceneManagement.LoadSceneMode,UnityEngine.SceneManagement.LocalPhysicsMode,bool)
+StartMenuPrototype/<WaitForRunnerThenLoadLobby>d__13:MoveNext () (at Assets/Project/Scripts/StartMenuPrototype.cs:132)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+StartMenuPrototype:OnStartButtonClicked () (at Assets/Project/Scripts/StartMenuPrototype.cs:119)
+UnityEngine.Events.UnityEvent:Invoke ()
+StartMenuPrototype:OnConfirmPressed (UnityEngine.InputSystem.InputAction/CallbackContext) (at Assets/Project/Scripts/StartMenuPrototype.cs:71)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+[StartMenuPrototype] Loading Lobby loaded after runner became ready
+UnityEngine.Debug:Log (object)
+StartMenuPrototype/<WaitForRunnerThenLoadLobby>d__13:MoveNext () (at Assets/Project/Scripts/StartMenuPrototype.cs:134)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+StartMenuPrototype:OnStartButtonClicked () (at Assets/Project/Scripts/StartMenuPrototype.cs:119)
+UnityEngine.Events.UnityEvent:Invoke ()
+StartMenuPrototype:OnConfirmPressed (UnityEngine.InputSystem.InputAction/CallbackContext) (at Assets/Project/Scripts/StartMenuPrototype.cs:71)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+[LobbyManager] OnValidate triggered. Prefab assigned: True
+UnityEngine.Debug:Log (object)
+LobbyManager:OnValidate () (at Assets/Project/Scripts/lobbyManger.cs:248)
+
+[LobbyManager] Prefab assigned correctly: PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyManager:ValidatePrefabAssignment () (at Assets/Project/Scripts/lobbyManger.cs:289)
+LobbyManager:Awake () (at Assets/Project/Scripts/lobbyManger.cs:72)
+
+[LobbyManager] Start() called
+UnityEngine.Debug:Log (object)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:78)
+
+[LobbyManager] Initializing static cards with placeholder data...
+UnityEngine.Debug:Log (object)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:95)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Name changed to: 
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=0, Team=0, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard with PlayerInfo: , ID=0, IsBot=False, Ready=False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard with PlayerInfo: 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Placeholder setup for slot 0 — awaiting player.
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:96)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard for 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyCard] UpdateName triggered | Name:  | isBot: False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] SetReadyState called isReady: False, isBot: False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:setReadyState (bool,bool) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:219)
+LobbyPlayerCardUI:RefreshReadyState () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:236)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:122)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup complete for Player 0 () on PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=1, Team=0, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (1) with PlayerInfo: , ID=1, IsBot=False, Ready=False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (1) with PlayerInfo: 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Placeholder setup for slot 1 — awaiting player.
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:96)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (1) for 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup complete for Player 1 () on PF_LobbyPlayerCard (1)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=2, Team=0, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (2) with PlayerInfo: , ID=2, IsBot=False, Ready=False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (2) with PlayerInfo: 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Placeholder setup for slot 2 — awaiting player.
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:96)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (2) for 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup complete for Player 2 () on PF_LobbyPlayerCard (2)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=3, Team=0, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (3) with PlayerInfo: , ID=3, IsBot=False, Ready=False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (3) with PlayerInfo: 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Placeholder setup for slot 3 — awaiting player.
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:96)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (3) for 
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyPlayerCardUI] Setup complete for Player 3 () on PF_LobbyPlayerCard (3)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:110)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=0, Team=1, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=1, Team=1, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=2, Team=1, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[PlayerInfo] Created: Name=, ID=3, Team=1, IsBot=False, isReadyFalse,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InitializeStaticCards () (at Assets/Project/Scripts/lobbyManger.cs:102)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:80)
+
+[LobbyManager] Starting countdown coroutine...
+UnityEngine.Debug:Log (object)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:88)
+
+[LobbyManager] LobbyCountdownRoutine started.
+UnityEngine.Debug:Log (object)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:555)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:90)
+
+[LobbyManager] BypassLobby is enabled. Returning 1f for countdown.
+UnityEngine.Debug:Log (object)
+LobbyManager:GetCountDownTimer () (at Assets/Project/Scripts/lobbyManger.cs:519)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:557)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:90)
+
+[LobbyManager] Initial countdown time = 1
+UnityEngine.Debug:Log (object)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:558)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LobbyManager:Start () (at Assets/Project/Scripts/lobbyManger.cs:90)
+
+[FusionCallbackHandler] Object LobbyPlayer entered AOI for player [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnObjectEnterAOI (Fusion.NetworkRunner,Fusion.NetworkObject,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:211)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.ObjectEnterAOI (Fusion.PlayerRef,Fusion.NetworkId)
+Fusion.SimulationConnection:GetObjectData (Fusion.NetworkId,bool,bool)
+Fusion.Simulation/StateReplicator:OnObjectSpawnedLocal (Fusion.NetworkId)
+Fusion.NetworkRunner:InitializeNetworkObjectInstance (Fusion.NetworkObjectMeta,Fusion.NetworkObject,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/AttachOptions,System.Nullable`1<bool>)
+Fusion.NetworkRunner:Attach (Fusion.NetworkObject[],System.Nullable`1<Fusion.PlayerRef>,bool,System.Nullable`1<bool>)
+Fusion.NetworkRunner:RegisterSceneObjects (Fusion.SceneRef,Fusion.NetworkObject[],Fusion.NetworkSceneLoadId)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:619)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Object PF_ControlLayout entered AOI for player [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnObjectEnterAOI (Fusion.NetworkRunner,Fusion.NetworkObject,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:211)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.ObjectEnterAOI (Fusion.PlayerRef,Fusion.NetworkId)
+Fusion.SimulationConnection:GetObjectData (Fusion.NetworkId,bool,bool)
+Fusion.Simulation/StateReplicator:OnObjectSpawnedLocal (Fusion.NetworkId)
+Fusion.NetworkRunner:InitializeNetworkObjectInstance (Fusion.NetworkObjectMeta,Fusion.NetworkObject,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/AttachOptions,System.Nullable`1<bool>)
+Fusion.NetworkRunner:Attach (Fusion.NetworkObject[],System.Nullable`1<Fusion.PlayerRef>,bool,System.Nullable`1<bool>)
+Fusion.NetworkRunner:RegisterSceneObjects (Fusion.SceneRef,Fusion.NetworkObject[],Fusion.NetworkSceneLoadId)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:619)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Scene load done. Index=2
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:45)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Not a gameplay scene (Index=2).
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:63)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: eeckhouseeric
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:88)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=eeckhouseeric, ID=526888979, Team=0, IsBot=False, isReadyTrue,InputType=None
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:88)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DEBUG] WaitForLobbyThenInject: Player=eeckhouseeric, Team=0, PlayerRef=[Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:99)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for eeckhouseeric, Team=0, Ref=[Player:1]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for eeckhouseeric, Team=0, Ref=[Player:1]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] hasPlayer([Player:1])
+UnityEngine.Debug:Log (object)
+LobbyManager:hasPlayer (Fusion.PlayerRef) (at Assets/Project/Scripts/lobbyManger.cs:209)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:158)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard for eeckhouseeric
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for eeckhouseeric, slotIndex=0
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Assigning PlayerInfo to card with PlayerID: 0
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:230)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard for eeckhouseeric
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard with PlayerInfo: eeckhouseeric, ID=0, IsBot=False, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard with PlayerInfo: eeckhouseeric
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard for eeckhouseeric
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: eeckhouseeric | isBot: False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: eeckhouseeric on PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] SetReadyState called isReady: True, isBot: False
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:setReadyState (bool,bool) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:219)
+LobbyPlayerCardUI:RefreshReadyState () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:236)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:122)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 0 (eeckhouseeric) on PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Restarting countdown coroutine due to new human player.
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:198)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] LobbyCountdownRoutine started.
+UnityEngine.Debug:Log (object)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:555)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:200)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] BypassLobby is enabled. Returning 1f for countdown.
+UnityEngine.Debug:Log (object)
+LobbyManager:GetCountDownTimer () (at Assets/Project/Scripts/lobbyManger.cs:519)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:557)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:200)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Initial countdown time = 1
+UnityEngine.Debug:Log (object)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:558)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:200)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for eeckhouseeric (Team: 0) -> Card 'PF_LobbyPlayerCard' (ID: 0)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Injected PlayerInfo for [Player:1] into lobby
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler/<WaitForLobbyThenInject>d__11:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:102)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Prefab assigned correctly: PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyManager:ValidatePrefabAssignment () (at Assets/Project/Scripts/lobbyManger.cs:289)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+[LobbyManager] Countdown finished.
+UnityEngine.Debug:Log (object)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:585)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] All human players ready or no humans. Injecting bots to fill slots.
+UnityEngine.Debug:Log (object)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:600)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: PingLord
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=PingLord, ID=-1, Team=0, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for PingLord, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for PingLord, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard (1) for PingLord
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for PingLord, slotIndex=1
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Assigning PlayerInfo to card with PlayerID: 1
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:230)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard (1) for PingLord
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (1) with PlayerInfo: PingLord, ID=1, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (1) with PlayerInfo: PingLord
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (1) for PingLord
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: PingLord | isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_PingLord on PF_LobbyPlayerCard (1)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] SetReadyState called isReady: True, isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:setReadyState (bool,bool) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:219)
+LobbyPlayerCardUI:RefreshReadyState () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:236)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:122)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 1 (PingLord) on PF_LobbyPlayerCard (1)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for PingLord (Team: 0) -> Card 'PF_LobbyPlayerCard (1)' (ID: 1)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: PingLord, Team=0
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: StackQueen
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=StackQueen, ID=-1, Team=1, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for StackQueen, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for StackQueen, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard for StackQueen
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for StackQueen, slotIndex=4
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Assigning PlayerInfo to card with PlayerID: 0
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:230)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard for StackQueen
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard with PlayerInfo: StackQueen, ID=0, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard with PlayerInfo: StackQueen
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard for StackQueen
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: StackQueen | isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_StackQueen on PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 0 (StackQueen) on PF_LobbyPlayerCard
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for StackQueen (Team: 1) -> Card 'PF_LobbyPlayerCard' (ID: 0)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: StackQueen, Team=1
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: StackSniper
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=StackSniper, ID=-1, Team=0, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for StackSniper, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for StackSniper, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard (2) for StackSniper
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for StackSniper, slotIndex=2
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Assigning PlayerInfo to card with PlayerID: 2
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:230)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard (2) for StackSniper
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (2) with PlayerInfo: StackSniper, ID=2, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (2) with PlayerInfo: StackSniper
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (2) for StackSniper
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: StackSniper | isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_StackSniper on PF_LobbyPlayerCard (2)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 2 (StackSniper) on PF_LobbyPlayerCard (2)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for StackSniper (Team: 0) -> Card 'PF_LobbyPlayerCard (2)' (ID: 2)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: StackSniper, Team=0
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: StackLord
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=StackLord, ID=-1, Team=1, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for StackLord, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for StackLord, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard (1) for StackLord
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for StackLord, slotIndex=5
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard (1) for StackLord
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (1) with PlayerInfo: StackLord, ID=1, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (1) with PlayerInfo: StackLord
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (1) for StackLord
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: StackLord | isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_StackLord on PF_LobbyPlayerCard (1)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 1 (StackLord) on PF_LobbyPlayerCard (1)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for StackLord (Team: 1) -> Card 'PF_LobbyPlayerCard (1)' (ID: 1)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: StackLord, Team=1
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: NullQueen
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=NullQueen, ID=-1, Team=0, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for NullQueen, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for NullQueen, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard (3) for NullQueen
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for NullQueen, slotIndex=3
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Assigning PlayerInfo to card with PlayerID: 3
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:230)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard (3) for NullQueen
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (3) with PlayerInfo: NullQueen, ID=3, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (3) with PlayerInfo: NullQueen
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (3) for NullQueen
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: NullQueen | isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_NullQueen on PF_LobbyPlayerCard (3)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 3 (NullQueen) on PF_LobbyPlayerCard (3)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for NullQueen (Team: 0) -> Card 'PF_LobbyPlayerCard (3)' (ID: 3)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: NullQueen, Team=0
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=PingLord, ID=-1, Team=1, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for PingLord, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for PingLord, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard (2) for PingLord
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for PingLord, slotIndex=6
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard (2) for PingLord
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (2) with PlayerInfo: PingLord, ID=2, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (2) with PlayerInfo: PingLord
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (2) for PingLord
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_PingLord on PF_LobbyPlayerCard (2)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 2 (PingLord) on PF_LobbyPlayerCard (2)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for PingLord (Team: 1) -> Card 'PF_LobbyPlayerCard (2)' (ID: 2)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: PingLord, Team=1
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: NullSniper
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=NullSniper, ID=-1, Team=0, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for NullSniper, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for NullSniper, Team=0, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: NullSniper, Team=0
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Name changed to: ByteSniper
+UnityEngine.Debug:Log (object)
+PlayerInfo:set_PlayerName (string) (at Assets/Project/Scripts/PlayerInfo.cs:28)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:68)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlayerInfo] Created: Name=ByteSniper, ID=-1, Team=1, IsBot=True, isReadyTrue,InputType=AI
+UnityEngine.Debug:Log (object)
+PlayerInfo:.ctor (string,int,int,bool,bool,Fusion.PlayerRef,string,string) (at Assets/Project/Scripts/PlayerInfo.cs:81)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:404)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for ByteSniper, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:154)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AddPlayerCard called for ByteSniper, Team=1, Ref=[Player:None]
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:156)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Chosen card: PF_LobbyPlayerCard (3) for ByteSniper
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:179)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] AssignToCard called for ByteSniper, slotIndex=7
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:222)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Setting up card PF_LobbyPlayerCard (3) for ByteSniper
+UnityEngine.Debug:Log (object)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:235)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called for card PF_LobbyPlayerCard (3) with PlayerInfo: ByteSniper, ID=3, IsBot=True, Ready=True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:39)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup called on PF_LobbyPlayerCard (3) with PlayerInfo: ByteSniper
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:82)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Refreshing card PF_LobbyPlayerCard (3) for ByteSniper
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:117)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyCard] UpdateName triggered | Name: ByteSniper | isBot: True
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:129)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Name updated to: Bot_ByteSniper on PF_LobbyPlayerCard (3)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:UpdateName (string) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:149)
+LobbyPlayerCardUI:Refresh () (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:119)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:100)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyPlayerCardUI] Setup complete for Player 3 (ByteSniper) on PF_LobbyPlayerCard (3)
+UnityEngine.Debug:Log (object)
+LobbyPlayerCardUI:Setup (PlayerInfo) (at Assets/Project/Scripts/LobbyPlayerCardUI.cs:106)
+LobbyManager:AssignToCard (PlayerInfo,int) (at Assets/Project/Scripts/lobbyManger.cs:236)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:189)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Added PlayerInfo for ByteSniper (Team: 1) -> Card 'PF_LobbyPlayerCard (3)' (ID: 3)
+UnityEngine.Debug:Log (object)
+LobbyManager:AddPlayerCard (PlayerInfo) (at Assets/Project/Scripts/lobbyManger.cs:203)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:412)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Injected bot UI only: ByteSniper, Team=1
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotPlayer (int) (at Assets/Project/Scripts/lobbyManger.cs:413)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:668)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[BotInjection] Calculated botsToAdd: 8 (maxPlayer: 8, humanPlayer.Count: 0)
+UnityEngine.Debug:Log (object)
+LobbyManager:InjectBotsAndStart () (at Assets/Project/Scripts/lobbyManger.cs:671)
+LobbyManager/<LobbyCountdownRoutine>d__53:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] Proceeding to GreyBox...
+UnityEngine.Debug:Log (object)
+LobbyManager/<WaitForBotsThenLoadScene>d__55:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:641)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Scene index set to 3
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SetSceneIndex (int) (at Assets/Project/Scripts/FusionCallbackHandler.cs:32)
+LobbyManager/<WaitForBotsThenLoadScene>d__55:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:643)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Scene load started. Index=3
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadStart (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:38)
+Fusion.NetworkRunner:InvokeSceneLoadStart (Fusion.SceneRef)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:320)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault:StartTracedCoroutine (System.Collections.IEnumerator) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:692)
+Fusion.NetworkSceneManagerDefault:LoadScene (Fusion.SceneRef,Fusion.NetworkLoadSceneParameters) (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:260)
+Fusion.NetworkRunner:LoadScene (Fusion.SceneRef,UnityEngine.SceneManagement.LoadSceneParameters,bool)
+Fusion.NetworkRunner:LoadScene (Fusion.SceneRef,UnityEngine.SceneManagement.LoadSceneMode,UnityEngine.SceneManagement.LocalPhysicsMode,bool)
+LobbyManager/<WaitForBotsThenLoadScene>d__55:MoveNext () (at Assets/Project/Scripts/lobbyManger.cs:644)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[LobbyManager] GreyBox loaded. Cleaning up lobby...
+UnityEngine.Debug:Log (object)
+LobbyManager:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Project/Scripts/lobbyManger.cs:791)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[LobbyManager] OnDestroy called - all coroutines on this object are killed!S
+UnityEngine.Debug:Log (object)
+LobbyManager:OnDestroy () (at Assets/Project/Scripts/lobbyManger.cs:773)
+
+[FusionCallbackHandler] Object PF_playerCamera entered AOI for player [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnObjectEnterAOI (Fusion.NetworkRunner,Fusion.NetworkObject,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:211)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.ObjectEnterAOI (Fusion.PlayerRef,Fusion.NetworkId)
+Fusion.SimulationConnection:GetObjectData (Fusion.NetworkId,bool,bool)
+Fusion.Simulation/StateReplicator:OnObjectSpawnedLocal (Fusion.NetworkId)
+Fusion.NetworkRunner:InitializeNetworkObjectInstance (Fusion.NetworkObjectMeta,Fusion.NetworkObject,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/AttachOptions,System.Nullable`1<bool>)
+Fusion.NetworkRunner:Attach (Fusion.NetworkObject[],System.Nullable`1<Fusion.PlayerRef>,bool,System.Nullable`1<bool>)
+Fusion.NetworkRunner:RegisterSceneObjects (Fusion.SceneRef,Fusion.NetworkObject[],Fusion.NetworkSceneLoadId)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:619)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Scene load done. Index=3
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:45)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Found CineCam= CinemachineCamera, crosshair=PF_Crosshair
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:52)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+GreyBox loaded, spawning players…
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:55)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] SpawnPlayerForScene entered for [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SpawnPlayerForScene (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:107)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:58)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Spawning player [Player:1] at (0.00, 12.29, -34.21)(team 0)
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SpawnPlayerForScene (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:131)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:58)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Object PF_PlayerAnchor(Clone) entered AOI for player [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnObjectEnterAOI (Fusion.NetworkRunner,Fusion.NetworkObject,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:211)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.ObjectEnterAOI (Fusion.PlayerRef,Fusion.NetworkId)
+Fusion.SimulationConnection:GetObjectData (Fusion.NetworkId,bool,bool)
+Fusion.Simulation/StateReplicator:OnObjectSpawnedLocal (Fusion.NetworkId)
+Fusion.NetworkRunner:InitializeNetworkObjectInstance (Fusion.NetworkObjectMeta,Fusion.NetworkObject,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/AttachOptions,System.Nullable`1<bool>)
+Fusion.NetworkRunner:SpawnInternal (Fusion.NetworkRunner/SpawnArgs&)
+Fusion.NetworkRunner:Spawn (Fusion.NetworkObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+FusionCallbackHandler:SpawnPlayerForScene (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:133)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:58)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] After SetPlayerObject: LocalPlayerObject=PF_PlayerAnchor(Clone) (Fusion.NetworkObject)
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SpawnPlayerForScene (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:142)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:58)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] PlaneSpawner.spawnPoint = (0.00, 12.29, -34.21)
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SpawnPlayerForScene (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:150)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:58)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Local player spawned – camera and crosshair will bind when plane spawns.
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:SpawnPlayerForScene (Fusion.NetworkRunner,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:162)
+FusionCallbackHandler:OnSceneLoadDone (Fusion.NetworkRunner) (at Assets/Project/Scripts/FusionCallbackHandler.cs:58)
+Fusion.NetworkRunner:InvokeSceneLoadDone (Fusion.SceneLoadDoneArgs&)
+Fusion.NetworkSceneManagerDefault/<OnSceneLoaded>d__43:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:622)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Fusion.NetworkSceneManagerDefault/<LoadSceneCoroutine>d__41:MoveNext () (at Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs:496)
+Fusion.FusionCoroutine:System.Collections.IEnumerator.MoveNext () (at Assets/Photon/Fusion/Runtime/Fusion.Unity.cs:685)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[PlaneSpawner] Coroutine started
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:24)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[DEBUG] PlaneSpawner Start: initial spawnPoint=PF_TeamSpawnPoint (UnityEngine.Transform)
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:25)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] Runner assigned: PF_LobbyRunner
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:37)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] InputAuthority = [Player:1], HasStateAuthority = True
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:38)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[FusionCallbackHandler] Object PF_paperPlaneA(Clone) entered AOI for player [Player:1]
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler:OnObjectEnterAOI (Fusion.NetworkRunner,Fusion.NetworkObject,Fusion.PlayerRef) (at Assets/Project/Scripts/FusionCallbackHandler.cs:211)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.ObjectEnterAOI (Fusion.PlayerRef,Fusion.NetworkId)
+Fusion.SimulationConnection:GetObjectData (Fusion.NetworkId,bool,bool)
+Fusion.Simulation/StateReplicator:OnObjectSpawnedLocal (Fusion.NetworkId)
+Fusion.NetworkRunner:InitializeNetworkObjectInstance (Fusion.NetworkObjectMeta,Fusion.NetworkObject,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/AttachOptions,System.Nullable`1<bool>)
+Fusion.NetworkRunner:SpawnInternal (Fusion.NetworkRunner/SpawnArgs&)
+Fusion.NetworkRunner:Spawn (Fusion.NetworkObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+Fusion.NetworkRunner:Spawn (UnityEngine.GameObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+PlaneController Spawned � Rigidbody initialized.
+UnityEngine.Debug:Log (object)
+PlaneController:Spawned () (at Assets/Project/Scripts/planeController.cs:47)
+Fusion.NetworkRunner:InvokeSpawnedCallback (Fusion.NetworkObject)
+Fusion.NetworkRunner:SpawnInternal (Fusion.NetworkRunner/SpawnArgs&)
+Fusion.NetworkRunner:Spawn (Fusion.NetworkObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+Fusion.NetworkRunner:Spawn (UnityEngine.GameObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[SceneAnchorBehaviour] Spawned on network.
+UnityEngine.Debug:Log (object)
+SceneAnchorBehaviour:Spawned () (at Assets/Project/Scripts/NetworkBehaviour.cs:8)
+Fusion.NetworkRunner:InvokeSpawnedCallback (Fusion.NetworkObject)
+Fusion.NetworkRunner:SpawnInternal (Fusion.NetworkRunner/SpawnArgs&)
+Fusion.NetworkRunner:Spawn (Fusion.NetworkObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+Fusion.NetworkRunner:Spawn (UnityEngine.GameObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlayerIdentity] Spawned Player with DisplayName: test
+UnityEngine.Debug:Log (object)
+PlayerIdentity:Spawned () (at Assets/Project/Scripts/PlayerIdentity.cs:10)
+Fusion.NetworkRunner:InvokeSpawnedCallback (Fusion.NetworkObject)
+Fusion.NetworkRunner:SpawnInternal (Fusion.NetworkRunner/SpawnArgs&)
+Fusion.NetworkRunner:Spawn (Fusion.NetworkObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+Fusion.NetworkRunner:Spawn (UnityEngine.GameObject,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Fusion.PlayerRef>,Fusion.NetworkRunner/OnBeforeSpawned,Fusion.NetworkSpawnFlags)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] Plane spawned for player [Player:1]
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:59)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[SPAWNER] Plane spawned with InputAuthority=[Player:1]
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:60)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] Local player detected - spawning Health UI
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:67)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] Health UI instantiated PF_HealthUI(Clone)
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:71)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] UI activeInHierachy = True
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:72)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] UI postion = (-2.60, 135.33, -451.79)
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] PlaneHealth component found PF_paperPlaneA(Clone) (PlaneHealth)
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:77)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] Health UI sucessfully bound to PlaneHealth
+UnityEngine.Debug:Log (object)
+PlaneSpawner/<WaitAndSpawn>d__6:MoveNext () (at Assets/Project/Scripts/PlaneSpawner.cs:83)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:18)
+
+[PlaneSpawner] Start coroutine to wait and spawn plane
+UnityEngine.Debug:Log (object)
+PlaneSpawner:Start () (at Assets/Project/Scripts/PlaneSpawner.cs:19)
+
+FixedUpdateNetwork running Authority: [Player:1]
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:54)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[FusionCallbackHandler] Camera now following plane: PF_paperPlaneA(Clone)
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler/<BindCameraWhenPlaneSpawns>d__13:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:183)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[FusionCallbackHandler] Crosshair bound to plane: PF_paperPlaneA(Clone)
+UnityEngine.Debug:Log (object)
+FusionCallbackHandler/<BindCameraWhenPlaneSpawns>d__13:MoveNext () (at Assets/Project/Scripts/FusionCallbackHandler.cs:188)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Input Feeder] OnInput Called - sceneIndex= 3
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:75)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=0, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=0, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=2, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=2, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=3, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=3, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=1, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=1, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=-1, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=-1, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=-2, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=-2, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=-3, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=-3, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=-5, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=-5, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=-4, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=-4, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=-6, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=-6, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=4, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=4, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=5, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=5, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneInputFeeder] OnInput Throttle=0, Pitch=6, Yaw=0, Roll=0, Fire1=False, Fire2=False
+UnityEngine.Debug:Log (object)
+PlaneInputFeeder:OnInput (Fusion.NetworkRunner,Fusion.NetworkInput) (at Assets/Project/Scripts/PlaneInputFeeder.cs:86)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnInput (Fusion.SimulationInput)
+Fusion.Simulation/Client:GetInput (Fusion.Tick,Fusion.PlayerRef)
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
+[PlaneController] Input received: Thrust=0, Pitch=6, Yaw=0, Roll=0
+UnityEngine.Debug:Log (object)
+PlaneController:FixedUpdateNetwork () (at Assets/Project/Scripts/planeController.cs:62)
+Fusion.SimulationBehaviourUpdater:InvokeFixedUpdateNetwork (Fusion.SimulationStages,Fusion.SimulationModes,Fusion.Topologies)
+Fusion.NetworkRunner:Fusion.Simulation.ICallbacks.OnTick ()
+Fusion.Simulation:InvokeTick (Fusion.SimulationStages,bool)
+Fusion.Simulation:StepSimulation (Fusion.SimulationStages,bool,bool,bool)
+Fusion.Simulation:Update (double)
+Fusion.NetworkRunner:UpdateInternal (double)
+Fusion.NetworkRunnerUpdaterDefault:InvokeUpdate ()
+
