@@ -2,39 +2,58 @@ using UnityEngine;
 
 public class Crosshair : MonoBehaviour
 {
-    public Transform Plane;
-    public float distance = 100f;
+    [Header("Movement Settings")]
+    public float sensitivity = 300f;
+    public float clampRadius = 150f;
 
 
-    private RectTransform crossHairUI;
-    private Camera cam;
+    private RectTransform rect;
+    private Vector2 screenCenter;
+    private Vector2 currentPos;
 
+    private float inputX;
+    private float inputY;
+    
     void Awake()
     {
-        crossHairUI = GetComponent<RectTransform>();
-        cam = Camera.main;
+       rect = GetComponent<RectTransform>();
+       screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
+       currentPos = screenCenter;
+       rect.position = currentPos;
 
     }
+    public void BindInputSource(PlaneInputFeeder feeder) 
+    { 
+        if (feeder == null) 
+        { 
+            Debug.LogError("[Crosshair] BindInputSource FAILED feeder is NULL");
+            return; 
+        } 
+        feeder.OnInputChanged += UpdateInput; 
+        Debug.Log("[Crosshair] BindInputSource SUCCESS Subscribed to PlaneInputFeeder");
+    }
+   
+    private void UpdateInput(float x, float y) 
+    { 
+        inputX = x;
+        inputY = y;
+        Debug.Log($"[Crosshair] Input updated  X={x}, Y={y}");
+    }
 
-    void LateUpdate()
+
+
+
+    void Update()
     {
-        if (Plane == null || cam == null)
-            return;
-
-        // Point in front of the plane
-        Vector3 forwardPosition = Plane.position + Plane.forward * distance;
-
-        //Convert to screen space
-        Vector3 screenPos = cam.WorldToScreenPoint(forwardPosition);
-
-        // if behind the camera, hide the crosshair
-        if (screenPos.z < 0f)
-        {
-            return;
+        if (rect == null) 
+        { Debug.LogError("[Crosshair] ERROR RectTransform is NULL");
+            return; 
         }
-
-        //Move UI
-        crossHairUI.position = screenPos;
+        Vector2 delta = new Vector2(inputX, inputY) * sensitivity * Time.deltaTime; currentPos += delta; 
+        Vector2 offset = currentPos - screenCenter; offset = Vector2.ClampMagnitude(offset, clampRadius); 
+        currentPos = screenCenter + offset; rect.position = currentPos;
+        Debug.Log($"[Crosshair] Update Position={rect.position}, Input=({inputX},{inputY})");
     }
-
 }
+
+

@@ -9,6 +9,9 @@ public class PlaneInputFeeder : MonoBehaviour, INetworkRunnerCallbacks
 {
     private PlaneControls controls;
 
+    // crossHair subscribes to this event to know when to show/hide based on input activity
+    public event Action<float, float> OnInputChanged;
+
     private void Update()
     {
         // Disable input feeder until gameplay scene (index >= 3)
@@ -84,6 +87,10 @@ public class PlaneInputFeeder : MonoBehaviour, INetworkRunnerCallbacks
         bool fire2 = flight.Fire2.IsPressed();
 
         Debug.Log($"[PlaneInputFeeder] OnInput Throttle={throttle}, Pitch={pitch}, Yaw={yaw}, Roll={roll}, Fire1={fire1}, Fire2={fire2}");
+
+        // Notify crosshair about pitch and yaw 
+        OnInputChanged?.Invoke(pitch, yaw);
+        Debug.Log($"[PlaneInputFeeder] OnInput Invoked OnInputChanged event with Pitch={pitch}, Yaw={yaw}");
 
         var data = new PlaneInputData
         {

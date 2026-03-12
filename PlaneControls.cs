@@ -214,10 +214,10 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""1D Axis"",
-                    ""id"": ""003e89e6-ad81-483c-8e8e-5218c359ef06"",
+                    ""id"": ""d0093db0-5745-424c-bb81-dd7368612b48"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Scale(factor=0.3)"",
                     ""groups"": """",
                     ""action"": ""Yaw"",
                     ""isComposite"": true,
@@ -225,8 +225,8 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""negative"",
-                    ""id"": ""72f2689c-7967-4ca7-a0e9-3295daf2474c"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""id"": ""e2d7eca8-0a31-4631-b829-f2b862097956"",
+                    ""path"": ""<Mouse>/delta/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -236,8 +236,8 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""positive"",
-                    ""id"": ""4dc40f74-d6e7-40ef-b2bd-58606f9ebd8b"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""id"": ""f7c707ea-6b03-48e7-812c-1921237a98e6"",
+                    ""path"": ""<Mouse>/delta/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -257,7 +257,7 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""negative"",
+                    ""name"": ""Positive"",
                     ""id"": ""ed8abb4c-0f37-4aee-a163-8271c14be831"",
                     ""path"": ""<Gamepad>/rightStick/down"",
                     ""interactions"": """",
@@ -268,7 +268,7 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""positive"",
+                    ""name"": ""Negative"",
                     ""id"": ""b8838657-2b4d-4ad2-9717-9c914016900a"",
                     ""path"": ""<Gamepad>/rightStick/up"",
                     ""interactions"": """",
@@ -283,7 +283,7 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                     ""id"": ""c8750550-814d-4c19-92be-0528b067fe42"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Scale(factor=0.3)"",
                     ""groups"": """",
                     ""action"": ""Pitch"",
                     ""isComposite"": true,
@@ -346,7 +346,7 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""1D Axis"",
-                    ""id"": ""d0093db0-5745-424c-bb81-dd7368612b48"",
+                    ""id"": ""003e89e6-ad81-483c-8e8e-5218c359ef06"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -357,8 +357,8 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""negative"",
-                    ""id"": ""e2d7eca8-0a31-4631-b829-f2b862097956"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""id"": ""72f2689c-7967-4ca7-a0e9-3295daf2474c"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -368,8 +368,8 @@ public partial class @PlaneControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""positive"",
-                    ""id"": ""f7c707ea-6b03-48e7-812c-1921237a98e6"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""id"": ""4dc40f74-d6e7-40ef-b2bd-58606f9ebd8b"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

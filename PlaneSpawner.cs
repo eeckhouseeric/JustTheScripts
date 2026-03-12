@@ -13,6 +13,10 @@ public class PlaneSpawner : MonoBehaviour
 
     // assigning PF_HealthUI prefab
     public GameObject healthUiPrefab;
+    public GameObject crossHairPrefab;
+
+    // NEW: HUDCanvas prefab name (must be in Resources folder)
+    private const string HUD_CANVAS_PREFAB = "PF_HUDCanvas";
     void Start()
     {
         StartCoroutine(WaitAndSpawn());
@@ -57,37 +61,65 @@ public class PlaneSpawner : MonoBehaviour
             anchor.InputAuthority
             );
         Debug.Log($"[PlaneSpawner] Plane spawned for player {anchor.InputAuthority}");
-        Debug.Log("[SPAWNER] Plane spawned with InputAuthority=" + anchor.InputAuthority); 
+        Debug.Log("[SPAWNER] Plane spawned with InputAuthority=" + anchor.InputAuthority);
 
 
-        // spawns ui only for local player
-        if (anchor.HasInputAuthority)
+        // Spawn UI only for local player
+        if (anchor.HasInputAuthority) 
         { 
-            
-            Debug.Log("[PlaneSpawner] Local player detected - spawning Health UI");
+            Debug.Log("[PlaneSpawner] Local player detected - spawning HUDCanvas + UI");
+            // 1. Spawn HUDCanvas dynamically
+                GameObject hudCanvasGO = Instantiate(Resources.Load<GameObject>(HUD_CANVAS_PREFAB));
+                if (hudCanvasGO == null) 
+                    { Debug.LogError("[PlaneSpawner] ERROR: PF_HUDCanvas not found in Resources!");
+                        yield break; 
+                    } 
+                Canvas hudCanvas = hudCanvasGO.GetComponent<Canvas>();
+                if (hudCanvas == null)
+                    { 
+                        Debug.LogError("[PlaneSpawner] ERROR: PF_HUDCanvas has no Canvas component!"); 
+                        yield break; 
+                    } 
+                Debug.Log("[PlaneSpawner] HUDCanvas instantiated"); 
+                
+                // 2. Spawn Health UI under HUDCanvas
+                var ui = Instantiate(healthUiPrefab, hudCanvas.transform);
+                Debug.Log("[PlaneSpawner] Health UI instantiated under HUDCanvas");
+                
+                var health = spawnedPlane.GetComponent<PlaneHealth>();
+                if (health != null)
+                    { var controller = ui.GetComponentInChildren<HealthUIController>();
+                        controller.Bind(health); Debug.Log("[PlaneSpawner] Health UI successfully bound to PlaneHealth");
+                    } 
+                else 
+                    { 
+                        Debug.LogError("[PlaneSpawner] PlaneHealth not found on spawned plane!"); 
+                    } 
+            // 3. Spawn Crosshair under HUDCanvas
+                if (crossHairPrefab != null) 
+                {
+                var crosshairObj = Instantiate(crossHairPrefab, hudCanvas.transform);
+                Debug.Log("[PlaneSpawner] Crosshair instantiated under HUDCanvas");
+                
+                var crosshair = crosshairObj.GetComponent<Crosshair>();
+                var feeder = spawnedPlane.GetComponent<PlaneInputFeeder>();
+                if (crosshair == null)
+                    Debug.LogError("[PlaneSpawner] ERROR: Crosshair script missing on prefab");
+                if (feeder == null) 
+                    Debug.LogError("[PlaneSpawner] ERROR: PlaneInputFeeder missing on plane");
+                if (crosshair != null && feeder != null) { crosshair.BindInputSource(feeder);
+                    Debug.Log("[PlaneSpawner] Crosshair bound to PlaneInputFeeder");
+                    // 4. Spawn Lead Indicator under HUDCanvas
+                    var leadIndicatorPrefab = Resources.Load<GameObject>("PF_LeadIndicator");
+                    var leadObj = Instantiate(leadIndicatorPrefab, hudCanvas.transform);
+                    var leadIndicator = leadObj.GetComponent<LeadIndicator>();
 
-            var ui = Instantiate(healthUiPrefab);
-
-            Debug.Log($"[PlaneSpawner] Health UI instantiated {ui.name}");
-            Debug.Log($"[PlaneSpawner] UI activeInHierachy = {ui.activeInHierarchy}");
-            Debug.Log($"[PlaneSpawner] UI postion = {ui.transform.position}" );
-
-
-            var health = spawnedPlane.GetComponent<PlaneHealth>();
-            Debug.Log($"[PlaneSpawner] PlaneHealth component found {health}");
-
-            if (health != null)
-            {
-                var controller = ui.GetComponentInChildren<HealthUIController>();
-                controller.Bind(health);
-                Debug.Log("[PlaneSpawner] Health UI sucessfully bound to PlaneHealth");
-            }
-            else
-            {
-                Debug.LogError("[PlaneSpawner] PlaneHealth not found on spawned plane!");
-            }
-
-
-        }
+                    // Attach controller to plane
+                    var leadController = spawnedPlane.gameObject.AddComponent<LeadIndicatorController>();
+                    //leadController.Initialize(leadIndicator);
+                }
+            } 
+        } 
     }
 }
+    
