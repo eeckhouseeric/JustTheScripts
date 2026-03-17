@@ -57,6 +57,14 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
             {
                 SpawnPlayerForScene(runner, player);
             }
+
+            var feeder = FindFirstObjectByType<PlaneInputFeeder>();
+            if (feeder != null)
+            {
+
+                runner.AddCallbacks(feeder);
+                Debug.Log("[FusionCallbackHandler] PlaneInputFeeder after gameplay scene load");
+            }
         }
         else
         {
@@ -182,10 +190,17 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
                 cineCam.Follow = plane;
                 Debug.Log($"[FusionCallbackHandler] Camera now following plane: {plane.name}");
             }
-            if (crosshair != null)
+            // bind crosshair to the global input feeder
+            var feeder = FindFirstObjectByType<PlaneInputFeeder>();
+            if (crosshair != null && feeder != null)
+            {
+                crosshair.BindInputSource(feeder);
+                Debug.Log("[FusionCallbackHandler] Crosshair found in scene (binding handled elsewhere).");
+            }
+            else
             {
 
-                Debug.Log("[FusionCallbackHandler] Crosshair found in scene (binding handled elsewhere).");
+                Debug.LogError("[FusionCallbackHandler] Crosshair binding FAILED. crosshair or feeder was null");            
             }
         }
     }

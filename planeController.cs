@@ -15,23 +15,8 @@ public class PlaneController : NetworkBehaviour
     public float minThrust = 0.3f;
     public float maxThrust = 1f;
 
-
-
-
-
-
-    [Header("Shooting Settings")]
-    public GameObject primaryBulletPrefab;
-    public Transform primaryFirePoint;
-    public float primaryShootCooldown = 0.3f;
-
-    public GameObject secondaryBulletPrefab;
-    public Transform secondaryFirePoint;
-    public float secondaryShootCooldown = 1.5f;
-
     private Rigidbody rb;
-    private float primaryShootTimer;
-    private float secondaryShootTimer;
+     
 
     public override void Spawned()
     {
@@ -96,21 +81,7 @@ public class PlaneController : NetworkBehaviour
                             -input.Roll * rollSpeed * Runner.DeltaTime);
         }
 
-        // Handle shooting
-        primaryShootTimer -= Runner.DeltaTime;
-        secondaryShootTimer -= Runner.DeltaTime;
 
-        if (input.Fire && primaryShootTimer <= 0f)
-        {
-            Shoot(primaryBulletPrefab, primaryFirePoint);
-            primaryShootTimer = primaryShootCooldown;
-        }
-
-        if (input.SecondaryFire && secondaryShootTimer <= 0f)
-        {
-            Shoot(secondaryBulletPrefab, secondaryFirePoint);
-            secondaryShootTimer = secondaryShootCooldown;
-        }
     }
 
     private void Shoot(GameObject prefab, Transform firePoint)

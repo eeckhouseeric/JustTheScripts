@@ -102,11 +102,11 @@ public class PlaneSpawner : MonoBehaviour
                 Debug.Log("[PlaneSpawner] Crosshair instantiated under HUDCanvas");
                 
                 var crosshair = crosshairObj.GetComponent<Crosshair>();
-                var feeder = spawnedPlane.GetComponent<PlaneInputFeeder>();
+                var feeder = FindFirstObjectByType<PlaneInputFeeder>();
                 if (crosshair == null)
                     Debug.LogError("[PlaneSpawner] ERROR: Crosshair script missing on prefab");
                 if (feeder == null) 
-                    Debug.LogError("[PlaneSpawner] ERROR: PlaneInputFeeder missing on plane");
+                 //   Debug.LogError("[PlaneSpawner] ERROR: PlaneInputFeeder missing on plane");
                 if (crosshair != null && feeder != null) { crosshair.BindInputSource(feeder);
                     Debug.Log("[PlaneSpawner] Crosshair bound to PlaneInputFeeder");
                     // 4. Spawn Lead Indicator under HUDCanvas

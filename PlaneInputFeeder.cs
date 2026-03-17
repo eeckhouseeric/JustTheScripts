@@ -68,6 +68,24 @@ public class PlaneInputFeeder : MonoBehaviour, INetworkRunnerCallbacks
         //Debug.Log("PlaneInputFeeder successfully registered with NetworkRunner");
     }
 
+
+    // this is re-registers the feeder after gameplay scene loads
+    public void OnSceneLoadDone(NetworkRunner runner)
+    {
+
+        if (FusionCallbackHandler.lastSceneIndex >= 3)
+        { 
+        
+            controls.Enable();
+            enabled = true;
+
+            runner.AddCallbacks(this);
+                Debug.Log("[Input Feeder] re-registered after gameplay scene load.");
+        }
+    
+    }
+
+
     //  Feed input to Fusion
     public void OnInput(NetworkRunner runner, NetworkInput input)
     {
@@ -79,32 +97,20 @@ public class PlaneInputFeeder : MonoBehaviour, INetworkRunnerCallbacks
 
         var flight = controls.Flight;
 
-        float throttle = flight.Throttle.ReadValue<float>();
-        float pitch = flight.Pitch.ReadValue<float>();
-        float yaw = flight.Yaw.ReadValue<float>();
-        float roll = flight.Roll.ReadValue<float>();
-        bool fire1 = flight.Fire1.IsPressed();
-        bool fire2 = flight.Fire2.IsPressed();
-
-        Debug.Log($"[PlaneInputFeeder] OnInput Throttle={throttle}, Pitch={pitch}, Yaw={yaw}, Roll={roll}, Fire1={fire1}, Fire2={fire2}");
-
-        // Notify crosshair about pitch and yaw 
-        OnInputChanged?.Invoke(pitch, yaw);
-        Debug.Log($"[PlaneInputFeeder] OnInput Invoked OnInputChanged event with Pitch={pitch}, Yaw={yaw}");
-
         var data = new PlaneInputData
         {
-            Thrust = throttle,
-            Pitch = pitch,
-            Yaw = yaw,
-            Roll = roll,
-            Turn = 0f,
-            Fire = fire1,
-            SecondaryFire = fire2
+            Thrust                      = flight.Throttle.ReadValue<float>(),
+            Pitch                       = flight.Pitch.ReadValue<float>(),
+            Yaw                         = flight.Yaw.ReadValue<float>(),
+            Roll                        = flight.Roll.ReadValue<float>(),
+            Fire                        = flight.Fire1.IsPressed(),
+            SecondaryFire               = flight.Fire2.IsPressed()
         };
+            OnInputChanged?.Invoke(data.Pitch, data.Yaw);
 
         input.Set(data);
     }
+
 
     //  Required callbacks (currently unused)
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input) { }
@@ -113,7 +119,6 @@ public class PlaneInputFeeder : MonoBehaviour, INetworkRunnerCallbacks
     public void OnSessionListUpdated(NetworkRunner runner, List<SessionInfo> sessionList) { }
     public void OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data) { }
     public void OnHostMigration(NetworkRunner runner, HostMigrationToken hostMigrationToken) { }
-    public void OnSceneLoadDone(NetworkRunner runner) { }
     public void OnSceneLoadStart(NetworkRunner runner) { }
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player) { }
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player) { }

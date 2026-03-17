@@ -17,7 +17,7 @@ public class Crosshair : MonoBehaviour
     void Awake()
     {
        rect = GetComponent<RectTransform>();
-       screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
+       screenCenter =Vector2.zero;
        currentPos = screenCenter;
        rect.position = currentPos;
 
@@ -49,9 +49,11 @@ public class Crosshair : MonoBehaviour
         { Debug.LogError("[Crosshair] ERROR RectTransform is NULL");
             return; 
         }
-        Vector2 delta = new Vector2(inputX, inputY) * sensitivity * Time.deltaTime; currentPos += delta; 
-        Vector2 offset = currentPos - screenCenter; offset = Vector2.ClampMagnitude(offset, clampRadius); 
-        currentPos = screenCenter + offset; rect.position = currentPos;
+        Vector2 delta = new Vector2(inputX, inputY) * sensitivity * Time.deltaTime; currentPos += delta;
+        currentPos += delta;
+        
+        currentPos = Vector2.ClampMagnitude(currentPos,clampRadius);
+        
         Debug.Log($"[Crosshair] Update Position={rect.position}, Input=({inputX},{inputY})");
     }
 }
