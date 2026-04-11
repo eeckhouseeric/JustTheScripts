@@ -7,6 +7,7 @@ using System.Collections;
 using TMPro;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using Fusion;
+using Unity.Cinemachine;
 public class StartMenuPrototype : MonoBehaviour
 {
     private PlaneControls inputActions;
@@ -21,14 +22,6 @@ public class StartMenuPrototype : MonoBehaviour
     private void Awake()
     {
         inputActions = new PlaneControls();
-        inputActions.UI.Enable();
-        inputActions.Flight.Disable();
-
-        // default state: show "Login"
-        if(startButtonLabel != null)
-        {
-            startButtonLabel.text = "Login";
-        }
 
     }
 
@@ -56,8 +49,14 @@ public class StartMenuPrototype : MonoBehaviour
     {
         inputActions.UI.confirm.performed -= OnConfirmPressed;
         inputActions.UI.cancel.performed -= OnCancelPressed;
+
+        inputActions.UI.Disable();
     }
 
+    private void OnDestroy()
+    {
+        inputActions.Dispose();
+    }
     private void OnConfirmPressed(InputAction.CallbackContext ctx)
     {
         var selected = EventSystem.current.currentSelectedGameObject;

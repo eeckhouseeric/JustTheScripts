@@ -40,10 +40,23 @@ public class FusionCallbackHandler : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnSceneLoadDone(NetworkRunner runner)
     {
+        int activeSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int loadedIndex = lastSceneIndex;
 
         Debug.Log($"[FusionCallbackHandler] Scene load done. Index={loadedIndex}");
-       
+
+
+        //prevent Fusion logic from running in Start menu (index 1)
+        if (activeSceneIndex == 1)
+        {
+            Debug.Log("[FusionCallbackHandler] Start Menu detected – skipping player spawn.");
+            return;
+
+
+        }
+
+
+
         if (loadedIndex >= 3)
         {
             //Find gameplay camera and crossshair 

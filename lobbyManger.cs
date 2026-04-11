@@ -73,13 +73,23 @@ public class LobbyManager : MonoBehaviour
         //lobbyTime();
     }
 
-    private void Start()
+    private async void Start()
     {
         Debug.Log("[LobbyManager] Start() called");
 
         InitializeStaticCards();
-       
-           if (countdownRoutine != null)
+
+        int lobbyIndex = SceneManager.GetActiveScene().buildIndex;
+        string sessionName = $"lobby_{Application.version}_{System.DateTime.UtcNow:yyyyMMddHHmmss}";
+
+        await NetworkBootstrapper.Instance.StartRunner(
+
+            GameMode.Shared,
+            sessionName,
+            SceneRef.FromIndex(lobbyIndex)
+            );
+
+        if (countdownRoutine != null)
         { 
             
             StopCoroutine(countdownRoutine);

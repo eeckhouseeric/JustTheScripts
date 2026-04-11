@@ -1,14 +1,22 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Fusion;
+using System;
+using UnityEngine.SocialPlatforms;
 
 public class SpitwadMachineGun : NetworkBehaviour
 {
-    [Header("Spitwad Settings")]
-    [SerializeField] private NetworkObject spitwadProjectilePrefab;
+    [Header("Setup")]
     [SerializeField] private Transform firePoint;
+
+    [Header("Firing")]
     [SerializeField] private float fireRate = 0.1f;
-    [SerializeField] private float spitwadSpeed = 50f;
+    [SerializeField] private float range = 500f;
+    [SerializeField] private int damage = 10;
+
+    [Header("Prefabs")]
+    [SerializeField] private NetworkObject spitwadVisualPrefab;
+    [SerializeField] private NetworkObject spitwadImpactPrefab;
 
 
 
@@ -25,17 +33,30 @@ public class SpitwadMachineGun : NetworkBehaviour
             return;
 
         // Read fusion Input
-        if (GetInput<PlaneInputData>(out var input)) 
+        if (GetInput<PlaneInputData>(out var input))
         {
             if (input.Fire && Runner.SimulationTime >= nextFireTime)
             {
                 nextFireTime = Runner.SimulationTime + fireRate;
-                FireSpitwadRPC();
+
+                if (Object.HasInputAuthority)
+                {
+                    FireServerRpc();
+                }
+                else
+                {
+                    RPC_FireRequest();
+                }
             }
         }
     }
-
-
+    // Client  Server request to fire
+    [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
+    private void RPC_FireRequest()
+    {
+        // Send RPC to server to request firing
+        FireServerRpc();
+    }
 
 
 
@@ -46,65 +67,68 @@ public class SpitwadMachineGun : NetworkBehaviour
 
     //Client send fire intent to server
     [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
-    private void FireSpitwadRPC()
+    private void FireServerRpc()
     {
 
-        if (spitwadProjectilePrefab == null)
-        { 
-        
-           Debug.LogError("[SpitwadMachineGun] ERROR: spitwadProjectile is Null");
-           return;
-
-        }
-
         if (firePoint == null)
-        { 
-        
+        {
+
             Debug.LogError("[SpitwadMachineGun] ERROR: firePoint is Null");
             return;
 
         }
 
-        // State authority spawns the pojectile
-        NetworkObject spitwad = Runner.Spawn(
-                spitwadProjectilePrefab,
+        //1 . Raycast for real hit (lag compensated)
+        if (Runner.LagCompensation.Raycast(
                 firePoint.position,
-                firePoint.rotation
-            );
-
-        Debug.Log($"[SpitwadMachineGun]\n" +
-                        $"FirePoint Forward: {firePoint.forward}" +
-                        $"Projectile Rotation: {spitwad.transform.rotation.eulerAngles}" +
-                        $"Projectile Forward: {spitwad.transform.forward}" +
-                        $"Projectile Position: {spitwad.transform.position}"
-            );
-
-
-
-
-        //ingore collisions between the projectile and the player who fired it
-        if (spitwad.TryGetComponent<Collider>(out var projCol))
+                firePoint.forward,
+                range,
+                Object.InputAuthority,
+                out var hit)) 
         {
-            var planeCol = firePoint.root.GetComponentInChildren<Collider>();
-            if (planeCol != null)
+            //2. Apply damage to hit target has PlaneHealth
+            if (hit.Hitbox != null)
             {
-                Physics.IgnoreCollision(projCol, planeCol);
+                var root = hit.Hitbox.Root;
+                var health = root.GetComponent<PlaneHealth>();
+                if (health != null)
+                {
+                    //simple path: use TakeDamage
+                    health.ServerApplyDamage(damage, Runner.Tick);
+                }
+
             }
 
+
+
+            //3. Spwan impact effect at hit point
+
+            if (spitwadImpactPrefab != null)
+            {
+                Runner.Spawn(
+                    spitwadImpactPrefab,
+                    hit.Point,
+                    Quaternion.LookRotation(hit.Normal)
+                    );
+
+
+            }
         }
 
 
-        //apply forward velocity 
-        if (spitwad.TryGetComponent<Rigidbody>(out var rb))
+        //4. Spawn visual spitwad (fake projectile)
+        
+        
+        if (spitwadVisualPrefab != null)
         {
-            Vector3 inheritedVelocity = firePoint.root.GetComponent<Rigidbody>().linearVelocity ;
-            Vector3 muzzleVelocity = firePoint.forward * spitwadSpeed;
+            var spawnPos = firePoint.position + firePoint.forward * 0.2f; 
 
-            rb.linearVelocity = inheritedVelocity + muzzleVelocity;
-            Debug.Log($"[SpitwadMachineGun] Applied velocity: {rb.linearVelocity}");
+            Runner.Spawn(
+                spitwadVisualPrefab,
+                spawnPos,
+                firePoint.rotation
+                );
         }
 
-        // Optional: Add particle FX, sound, or shake
     }
-
 }

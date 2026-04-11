@@ -64,24 +64,33 @@ public class NetworkBootstrapper : MonoBehaviour
     }
 
 
-    private void Start()
+    public async Task StartRunner(GameMode mode, string sessionName,SceneRef scene)
     {
-        if (Instance != this || _hasStarted) return;
-        _hasStarted = true;
-
-        Debug.Log($"[Bootstrapper] Start called. Runner={Runner?.name}, HasStarted={_hasStarted}");
-
-        // Call ValidateConfig before starting async flow
-        if (!ValidateConfig())
-        {
-            Debug.LogError("[Bootstrapper] Config validation failed. Not starting runner.");
+        if (Instance != this)
+        { 
+        
+            Debug.LogWarning("[Bootstrapper] StartRunner called on non-singleton instance.");
             return;
         }
-        _ = InitializeAsync();// Fire and forget
+
+        if (_hasStarted)
+        {
+            Debug.LogWarning("[Bootstrapper] StartRunner called but runner has already started.");
+            return;
+        }
+        _hasStarted = true;
+
+        if (!ValidateConfig())
+        { 
+            Debug.LogError("[Bootstrapper] Configuration validation failed. Aborting StartRunner.");
+            return;
+        }
+
+        await InitializeAsync(mode,sessionName,scene);
 
     }
 
-    private async Task InitializeAsync()
+    private async Task InitializeAsync(GameMode mode, string sessionName, SceneRef scene)
     {
 
         Debug.Log("[Bootstrapper] InitializeAsync entered.");
@@ -119,13 +128,11 @@ public class NetworkBootstrapper : MonoBehaviour
 
         // Prefab table guard
         var table = config.PrefabTable;
-        var prefabCount = table?.Prefabs?.Count ?? 0;
-        if (prefabCount == 0)
+        if(table == null || table.Prefabs == null || table.Prefabs.Count == 0)
         {
             Debug.LogError("[Bootstrapper] PrefabTable is EMPTY — aborting startup.");
             return;
         }
-
 
         //Proof log - runner must now see the same prefab count as resolved config
         foreach (var source in table.Prefabs)
@@ -139,95 +146,39 @@ public class NetworkBootstrapper : MonoBehaviour
                 Debug.Log("[Bootstrapper] Prefab entry: NULL");
             }
         }
-
-
-
-        // Prefab table fingerprinting
-        var names = table.Prefabs.Where(p => p != null).Select(p => p.ToString()).ToArray();
-        int hash = names.Aggregate(17, (h, n) => unchecked(h * 31 + n.GetHashCode()));
-       
-        Debug.Log("[Bootstrapper] --- CONFIG VALIDATION ---");
-        Debug.Log("[Bootstrapper] Using Global NetworkProjectConfig");
-        Debug.Log($"Runner.ProvideInput={Runner.ProvideInput}");
-        Debug.Log($"PrefabTable count={prefabCount}");
-        Debug.Log($"PrefabTable hash={hash} | names=[{string.Join(", ", names)}]");
-        Debug.Log("[Bootstrapper] -------------------------");
-
-      
-        // Build unique session name
-
-        string unique = System.DateTime.UtcNow.ToString("yyyyMMddHHmmss");
-        string version = Application.version;
-        string region = "US"; // Placeholder for region logic if needed
-        string uniqueToken = System.Guid.NewGuid().ToString("N").Substring(0, 6).ToUpper();
-       //string sceneName = $"Match_US_{Application.version}_{unique}";
-
-
-        string sessionName = $"session_{region}_{unique}_{version}_{uniqueToken}";
-
+        // FIX #1 — DO NOT AUTO-LOAD ANY SCENE HERE
+        // SceneRef.None prevents Fusion from overriding Unity's scene loading.
         // StartGame arguments
         var startArgs = new StartGameArgs
         {
-            GameMode = GameMode.Shared,
+            GameMode = mode,
             SessionName = sessionName,
             // Don't tue runner to current scene - keep Presistent scene active
-            Scene = SceneRef.FromIndex(1),
+            Scene = SceneRef.None,
             SceneManager = Runner.GetComponent<NetworkSceneManagerDefault>(),
             Config = config,
         };
 
-        FusionCallbackHandler.SetSceneIndex(1); // StartMenu scene index
+        // Tell FusionCallbackHandler what scene will load NEXT
+        FusionCallbackHandler.SetSceneIndex(scene.AsIndex); // StartMenu scene index
         Debug.Log($"[Bootstrapper] StartGameArgs -> Mode={startArgs.GameMode}, " +
-                  $"Session={startArgs.SessionName}, SceneIndex={startArgs.Scene}, " +
-                  $"PrefabCount={prefabCount}");
+                  $"Session={startArgs.SessionName}, SceneIndex={startArgs.Scene}");
         
         // Start the runner
         var result = await Runner.StartGame(startArgs);
-
-        var localPlayerRef = Runner.LocalPlayer; // PlayerRef
-        var localPlayerObj = Runner.GetPlayerObject(localPlayerRef);
-        Debug.Log($"[Bootstrapper] StartGame result: Ok={result.Ok}, Reason={result.ShutdownReason}");
-        Debug.Log($"[Bootstrapper] ActivePlayers={Runner.ActivePlayers.Count()} " +
-                  $"LocalPlayerObject={(localPlayerObj != null ? localPlayerObj.name : "NULL")}");
-
-        //Only log failure if result ok. Okay is false
+        
+        
+        // FIX #2 — Correct success check
         if (!result.Ok)
-        {
-            Debug.LogError($"[Bootstrapper] StartGame failed: {result.ShutdownReason}");
-
-            // Dump global config at failure for comparison
-            var global = NetworkProjectConfig.Global;
-            if (global?.PrefabTable != null)
-            {
-                foreach (var p in global.PrefabTable.Prefabs)
-                {   Debug.Log($"[Bootstrapper] Global PrefabTable entry at failure: {p}"); }
-            }
+         {
+            Debug.Log($"[Bootstrapper] StartGame failed: Mode={mode}, Session= {sessionName},SceneIndex={scene.AsIndex}");
             return;
         }
 
-        // Load initial scene (index 1)
-        await Runner.LoadScene(SceneRef.FromIndex(1));
-
-
-        // Runner.Config is now valid - dump what the runner actually has
-        var runnerNames = Runner.Config.PrefabTable.Prefabs
-            .Where(p => p != null)
-            .Select(p => p.ToString())
-            .ToArray();
-        int runnerHash = runnerNames.Aggregate(17, (h, n) => unchecked(h * 31 + n.GetHashCode())) -1;
-
-        Debug.Log ($"[DEBUG Bootstrapper] Runner PrefabTable -> Count= {runnerNames?.Length ?? 0}" +
-                   $"Hash= {runnerNames?.Aggregate(17,(h, n) => unchecked(h * 31 + n.GetHashCode()))}");
-                  
-        Debug.Log($"[Bootstrapper] Fusion running |" +
-                  $" Mode={Runner.GameMode} |" +
-                  $" Session='{Runner.SessionInfo?.Name}' |" +
-                  $" Players={Runner.ActivePlayers.Count()} |" +
-                  $" ProvideInput={Runner.ProvideInput} |" +
-                  $"PrefabTable={(Runner.Config?.PrefabTable != null ? "SET" : "MISSING")} | " +
-                  $" Scene={SceneManager.GetActiveScene().name}");
-        Debug.Log("[Bootstrapper] Fusion started successfully.");
-       
+        // FIX #3 — Load the scene passed in (Lobby)
+        await Runner.LoadScene(scene);
+        
+        Debug.Log($"[Bootstrapper] Fusion started successfully. Scene= {scene.AsIndex}");
         PostStartupFlow();
 
     }

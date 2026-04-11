@@ -8,6 +8,7 @@ using UnityEngine;
 public class PlaneInputFeeder : MonoBehaviour, INetworkRunnerCallbacks
 {
     private PlaneControls controls;
+    public bool Fire;
 
     // crossHair subscribes to this event to know when to show/hide based on input activity
     public event Action<float, float> OnInputChanged;
